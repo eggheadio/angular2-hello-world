@@ -1,0 +1,31 @@
+{
+  "name": "angular2-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --colors --display-error-details --display-cached --port 8080"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "John Lindquist, Joel Hooks",
+  "license": "Apache 2",
+  "devDependencies": {
+    "css-loader": "^0.23.0",
+    "es6-shim": "^0.33.13",
+    "style-loader": "^0.13.0",
+    "ts-loader": "^0.7.2",
+    "tsd": "^0.6.5",
+    "typescript": "^1.7.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0",
+    "webpack-livereload-plugin": "^0.4.0"
+  },
+  "dependencies": {
+    "@reactivex/rxjs": "^5.0.0-alpha.11",
+    "angular2": "^2.0.0-alpha.47",
+    "reflect-metadata": "^0.1.2",
+    "zone.js": "^0.5.8"
+  }
+}
